@@ -1,0 +1,23 @@
+.page-footer__list-contact {
+   margin-right: 70px;
+}
+
+.list-contact__item:not(:first-child) {
+   margin-top: 9px;
+}
+
+.list-contact__link {
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   font-style: normal;
+}
+
+.list-contact__link_theme_light {
+   color: #ffffff;
+}
+
+.list-contact__link_theme_dark {
+   color: rgba(255, 255, 255, 0.6);
+}
+
