@@ -1,15 +1,12 @@
 .footer-join {
    width: 206px;
    margin-right: 93px;
-}
 
-.footer-join__title {
-   display: block;
-   margin-bottom: 20px;
-
-   font-size: 14px;
-   line-height: 1.14;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: #ffffff;
+   &__title {
+      @include font;
+      display: block;
+      margin-bottom: 20px;
+           text-transform: uppercase;
+      color: #ffffff;
+   }
 }

@@ -7,17 +7,14 @@
 }
 
 .list-contact__link {
-   font-size: 14px;
-   line-height: 1.71;
-   letter-spacing: 0.03em;
+   @include font(14px, 1.71);
    font-style: normal;
-}
 
-.list-contact__link_theme_light {
-   color: #ffffff;
-}
+   &_theme_light {
+      color: #ffffff;
+   }
 
-.list-contact__link_theme_dark {
-   color: rgba(255, 255, 255, 0.6);
+   &_theme_dark {
+      color: rgba(255, 255, 255, 0.6);
+   }
 }
-

@@ -11,15 +11,15 @@
 
    animation-duration: 1000ms;
    animation-iteration-count: 2;
-}
 
-.logo__accent {
-   color: var(--color-accent);
-}
+   &__accent {
+      color: var(--color-accent);
+   }
 
-footer .logo {
-   padding-top: 0;
-   padding-bottom: 0;
+   .page-footer & {
+      padding-top: 0;
+      padding-bottom: 0;
+   }
 }
 
 .page-footer__logo {
