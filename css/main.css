@@ -74,15 +74,15 @@ img {
   color: #ffffff;
 }
 
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.section {
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 .visually-hidden {
@@ -355,14 +355,6 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.section__team {
-  background: #f5f4fa;
-}
-
-.img-team {
-  margin-bottom: 30px;
-}
-
 .team-list {
   display: flex;
   flex-wrap: wrap;
@@ -404,6 +396,14 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.section__team {
+  background: #f5f4fa;
+}
+
+.img-team {
+  margin-bottom: 30px;
 }
 
 .icons-list {
